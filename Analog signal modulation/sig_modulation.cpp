@@ -148,8 +148,8 @@ int main() {
     plt::plot(Fk, M2);
     plt::plot(Fk, M3);
     plt::grid(true);
-    plt::xlabel("Czestotliwosc [Hz]");
-    plt::ylabel("Magnituda [dB]");
+    plt::xlabel("Frequency [Hz]");
+    plt::ylabel("Magnitude [dB]");
     plt::show();
     return 0;
 }
